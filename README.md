@@ -4,7 +4,7 @@ Clone this repository
 ```
 $ git clone https://github.com/Fajrinmk/odoo13-docker.git
 ```
-Create the necessary folders thath we need
+Create the necessary folders that we need
 ```
 $ cd odoo13-docker
 $ mkdir addons
