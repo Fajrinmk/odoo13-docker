@@ -1,8 +1,19 @@
 # Odoo 13 with Customizable Add-ons and Docker
 
+Clone this repository
+```
+$ git clone https://github.com/Fajrinmk/odoo13-docker.git
+```
+Create the necessary folders thath we need
+```
+$ cd odoo13-docker
+$ mkdir addons
+$ mkdir etc
+```
 Change the folder permission to make sure that the container is able to access the directory:
 ```
 $ sudo chmod -R 777 addons
+$ sudo chmod -R 777 etc
 ```
 Start the container:
 ```
